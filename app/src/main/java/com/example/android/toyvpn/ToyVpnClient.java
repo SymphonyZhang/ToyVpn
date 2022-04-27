@@ -45,7 +45,7 @@ public class ToyVpnClient extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.form);
+        setContentView(R.layout.activity_main);
 
         final TextView serverAddress = findViewById(R.id.address);
         final TextView serverPort = findViewById(R.id.port);
